@@ -18,7 +18,7 @@
          echo "<script> location.href='dashboard.php'; </script>";
          exit;
       }else {
-         echo 'Wrong username or password';
+         echo "<script> alert('Wrong username or password');</script>";
       }
    }
    else{
